@@ -1,0 +1,149 @@
+body{
+  
+    background:    linear-gradient(
+        rgba(187, 124, 255, 0.4), 
+        rgba(187, 124, 255, 0.4)
+      ), url("images/bg.jpg");
+
+    
+    background-repeat: repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    
+}
+.container, textarea{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    color: white;
+    display: inline-block;
+   
+}
+
+
+.header{
+    margin: 50px;
+    
+}
+
+#survey-form{
+    background-color: rgba(18, 8, 32, 0.7);
+    width: 700px;
+    max-width: 100%;
+    display: inline-block; /*used for responsiveness*/
+    border-radius: 5px;
+    
+    padding: 18px;
+   
+}
+
+#survey-form input, label, select,textarea,button{ /*for all labels and input blocks*/
+    display: block;
+   
+}
+
+/*Fixing radio and checkbox buttons*/
+#radio-container, #checkbox-container  {
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 40px ;
+  
+}
+
+#radio-container input, #checkbox-container input{
+    
+   position: relative;
+   left: -330px;
+   top: -25px;
+  
+   
+}
+
+#survey-form input{ /*for all field*/
+
+    width: 630px;
+    max-width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+#survey-form label{
+    text-align: left;
+    padding-bottom: 5px;
+    font-size: 18px;
+   
+}
+
+#field{ /*Controls the margin bt each field*/
+
+    margin: 30px;
+
+}
+#submit {
+
+    font-size: 18px;
+    color: rgb(243, 243, 243);
+    background-color: rgb(58, 182, 93);
+    border: none;
+
+    width: 640px;
+    height: 45px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+#dropdown{
+    
+    width: 635px;
+    height: 40px;
+    max-width: 100%;
+    border-radius: 5px;
+
+}
+
+
+#field-textarea{
+    width: 630px;
+    max-width: 100%;
+    height: 125px;
+   
+}
+
+input,select,option,textarea{ /*for values inside of input fields*/
+    color: rgb(91, 91, 91);
+    font-size: 16px;
+}
+
+@media (max-width: 375px), (max-height: 812px){
+    #survey-form {
+      width: 320px;
+     
+    }
+
+   
+    #radio-container, #checkbox-container  {
+        text-align: left;
+        padding-top: 20px;
+        padding-left: 40px ;
+      
+    }
+    
+    #radio-container input, #checkbox-container input{
+        
+       position: relative;
+       left: -140px;
+       top: -25px;
+      
+       
+    }
+   
+    
+    html{
+        font-size: 13px;
+    }
+    
+}
