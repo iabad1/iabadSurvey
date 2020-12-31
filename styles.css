@@ -118,20 +118,21 @@ input,select,option,textarea{ /*for values inside of input fields*/
     font-size: 16px;
 }
 
+/*
 @media (max-width: 375px), (max-height: 812px){
     #survey-form {
       width: 320px;
      
     }
 
-   /*
+   
     #radio-container, #checkbox-container  {
         text-align: left;
         padding-top: 20px;
         padding-left: 40px ;
       
     }
-  */
+  
     
     #radio-container input, #checkbox-container input{
         
@@ -148,3 +149,4 @@ input,select,option,textarea{ /*for values inside of input fields*/
     }
     
 }
+  */
