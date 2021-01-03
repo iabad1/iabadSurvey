@@ -131,7 +131,7 @@ input,select,option,textarea{ /*for values inside of input fields*/
 
 
 
-@media (max-width: 375px), (max-height: 812px){
+@media (max-device-width: 375px), (max-device-height: 812px){
     #survey-form {
       width: 320px;
      
