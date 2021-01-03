@@ -145,6 +145,7 @@ input,select,option,textarea{ /*for values inside of input fields*/
         padding-left: 40px ;
       
     }
+      */
     
     #radio-container input, #checkbox-container input{
         
@@ -154,7 +155,7 @@ input,select,option,textarea{ /*for values inside of input fields*/
       
        
     }
-   */
+ 
     
     html{
         font-size: 13px;
