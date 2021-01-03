@@ -60,8 +60,6 @@ body{
    position: relative;
    left: -330px;
    top: -25px;
-
-   -webkit-appearance: none;
    
 }
 
@@ -139,7 +137,7 @@ input,select,option,textarea{ /*for values inside of input fields*/
      
     }
 
-   
+   /*
     
     #radio-container, #checkbox-container  {
         text-align: left;
@@ -156,7 +154,7 @@ input,select,option,textarea{ /*for values inside of input fields*/
       
        
     }
-   
+   */
     
     html{
         font-size: 13px;
