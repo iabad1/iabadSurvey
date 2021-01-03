@@ -60,7 +60,8 @@ body{
    position: relative;
    left: -330px;
    top: -25px;
-  
+
+   -webkit-appearance: none;
    
 }
 
@@ -100,7 +101,7 @@ body{
     max-width: 100%;
     border-radius: 5px;
 
-    -webkit-appearance: radio;
+   
 }
 
 #submit:hover{
