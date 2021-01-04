@@ -89,18 +89,15 @@ body{
     color: rgb(243, 243, 243);
     background-color: rgb(58, 182, 93);
     border: none;
-
-  
-}
-#submit-button input{
-
+    
     width: 640px;
     height: 45px;
     max-width: 100%;
     border-radius: 5px;
 
-   
+  
 }
+
 
 #submit:hover{
     cursor: pointer;
@@ -150,7 +147,7 @@ input,select,option,textarea{ /*for values inside of input fields*/
     #radio-container input, #checkbox-container input{
         
        position: relative;
-       left: -40px;
+       left: -50px;
        top: -25px;
       
        
@@ -162,3 +159,16 @@ input,select,option,textarea{ /*for values inside of input fields*/
     }
     
 }
+
+.form-control{
+
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+
+}
+
+.form-control:focus { /*focus is the outline glow of an input field*/
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
